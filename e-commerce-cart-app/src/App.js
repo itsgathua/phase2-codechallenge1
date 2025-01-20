@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <h2>E-Commerce Cart</h2>
       <ul>
-        {products.map((prodduct) => (
+        {products.map((product) => (
           <li key = {products.id}>
             {products.name} - Ksh.{products.price}
           </li>
